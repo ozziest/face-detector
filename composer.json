@@ -1,0 +1,24 @@
+{
+    "name": "ozziest/face-detector",
+    "description": "Face detector for Laravel 4.",
+    "keywords": ["laravel", "face-detector", "laravel"],
+    "license": "GPL",
+    "homepage": "https://github.com/ozziest/face-detector",
+    "authors": [
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ozziest\\FaceDetector": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
